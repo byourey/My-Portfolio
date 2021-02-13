@@ -4,83 +4,122 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>My Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS only -->
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">        <link rel="stylesheet" href="style.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">        
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+       <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">BJORN YOUREY</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            
+              <h1>BJORN YOUREY</h1>
+                          
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a href="https://github.com/byourey"> <i class="fab fa-github fa-3x"></i></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Portfolio">Portfolio</a>
+                        <a href="tel:603 545 5836"> <i class="fas fa-phone-alt fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="byourey7783@gmail.com"> <i class="fas fa-envelope fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="www.linkedin.com/in/byourey83"> <i class="fab fa-linkedin fa-3x"></i></a>
                     </li>
                                         
                 </ul>
             </div>
         </nav>
 
-       <div class="container">
-        <h2>About Me</h2>
-         <p>I've started learning a full stack developing course at University of New Hampshire. I have skills
-             in Web Design, HMTL, CSS, Javascript, jQuery & NODEJS.
-         </p>
-       </div>
-       <h2>Portfolio</h2>
-       <div class="row">
-        <div class="col-sm-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Project - Easy Recipeazy</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="https://tonipow3ll.github.io/drinks-and-dinner/" class="btn btn-primary">Easy Recipeazy</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Assignment - Password Gemerator</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="https://byourey.github.io/My-JS-Password-Generator/" class="btn btn-secondary">Password Generator</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <img src="C:\Users\byour\OneDrive\Desktop.jpg" class="card-img-top" alt="Workday Planner">
-              <div class="card-body">
-                <h5 class="card-title">Assignment - Workday Scheduler</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="https://byourey.github.io/My-Work-Day-Scheduler/" class="btn btn-outline-success">Workday Scheduler</a>
+        <article>
+          <h2>About Me</h2>
+        
+         <div id="container">
+            <div class="row">
+              <div class="col-md-10">
+              <img class="pic" src="./My-Portfolio/Images/circle-cropped.png">
+              <p>I've started learning a full stack developing course at University of New Hampshire. I have skills
+                in Web Design, HMTL, CSS, Javascript, jQuery & NODEJS.</p>
+              </div> 
+            </div>  
+         </div> 
+        </article>
+
+           
+         
+           <button type="button" class="btn1 btn-secondary btn-lg">Click to view my projects</button>
+           
+        <div class="container hide">
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="" alt="Drinks and Food">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                     <h5 class="card-title">Project - Easy Recipeazy</h5>
+                     <p class="card-text">Are you a picky eater? Not sure what to eat or drink?We have the best receipes for cooking and drinks. Choose some ingredients you have and the application will show you a meal and a drink.</p>
+                     <a href="https://tonipow3ll.github.io/drinks-and-dinner/" target="_blank" button type="button" class="btn btn-primary">Deployed</button></a>
+                     <a href="https://github.com/tonipow3ll/drinks-and-dinner" target="_blank" button type="button" class="btn btn-primary">Github Repo</button></a>
+                    </div>
+                </div>
               </div>
             </div>
-          </div>
-      </div>
-
-      
-
-      <nav class="navbar fixed-bottom bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand">Contact Information</a>
-          <a href="byourey7783@gmail.com">Email</a>
-          <a href="tel:603 545 5836">Phone Number</a>
-          <a href="https://github.com/byourey">Github</a>
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./My-Portfolio/Images/password-generator1.jpg" alt="Password Gen">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                     <h5 class="card-title">Assignment - Password Generator</h5>
+                     <p class="card-text">.A random password generator. Create a password between 8 to 128 characters by choosing uppercase, lowercase letters, numbers and special characters.</p>
+                     <a href="https://byourey.github.io/My-JS-Password-Generator/" target="_blank" button type="button" class="btn btn-secondary">Deployed</button></a>
+                     <a href="https://github.com/byourey/My-JS-Password-Generator" target="_blank" button type="button" class="btn btn-secondary">Github Repo</button></a>            
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="" alt="Workday Planner">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                     <h5 class="card-title">Assignment - Workday Scheduler</h5>
+                     <p class="card-text">Created a day planner which shows hourly timeblocks with different colors to indicate past , present or future hours. Also has a text boxes which stores information to local storage which can also be retrieved.</p>
+                     <a href="https://byourey.github.io/My-Work-Day-Scheduler/" target="_blank" button type="button" class="btn btn-outline-success">Deployed</button></a>
+                     <a href="https://github.com/byourey/My-Work-Day-Scheduler" target="_blank" button type="button" class="btn btn-outline-success">Github Repo</button></a>            
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="" alt="Workday Planner">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                     <h5 class="card-title">Assignment - Coding Quiz</h5>
+                     <p class="card-text">About
+                      This is about a coding quiz. Click the start button to start the quiz and every time you choose the right answer button will light up in green and red for a wrong answer. Quiz will end once the timer is 0 and will show you your score at the end.</p>
+                     <a href="https://byourey.github.io/My-Coding-Quiz/" target="_blank" button type="button" class="btn btn-outline-success">Deployed</button></a>
+                     <a href="https://github.com/byourey/My-Coding-Quiz" target="_blank" button type="button" class="btn btn-outline-success">Github Repo</button></a>            
+                    </div>
+                </div>
+              </div>
+            </div>
         </div>
-      </nav>
+        <a id="resume" href="./My-Portfolio/Images/My Resume.pdf" target="_blank" type="application/octet-stream" download="myresume.pdf" button type="button" class="btn2 btn-secondary btn-lg hide">My Resume</button>
+
+     
        
         
         <script src="script.js" async defer></script>
