@@ -1,0 +1,82 @@
+body {
+    background-color: #EAEAE8;
+}
+
+.container-fluid {
+    height: 100px;
+    background-color: grey;
+    width:90%
+}
+
+.navbar-brand, .nav-link {
+    color: white
+}
+
+h1 {
+    color: white;
+}
+
+/* h2 {
+    text-align: center;
+} */
+
+.nav-item {
+    padding: 5px;
+}
+
+.pic {
+    float: left;
+    margin: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.btn1 {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.card-title, .card-text {
+    text-align: center;
+}
+
+.btn {
+    margin-left: 90px;
+    text-align: center;
+}
+
+.card {
+    border: solid;
+    background-color: lightgrey;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+article {
+    /* margin-left: 20px; */
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.pic {
+    float: left;
+    margin: 10px;
+}
+
+i {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
