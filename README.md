@@ -10,7 +10,9 @@
 * Made sure its mobile friendly
 
 ## Credits
-* Bootstrap, Stack Overflow * jQuery
+* Bootstrap
+* Stack Overflow 
+* jQuery
 
 ## Website
 ![Image of website](https://github.com/byourey/My-Portfolio/blob/main/Images/portfolio%20website.jpg)
